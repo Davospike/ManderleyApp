@@ -1,0 +1,79 @@
+Redux store:
+
+TrackerScale:
+[{
+   id: string,
+   active: boolean,
+   name: string,
+   paramsArray: [{
+     emoji: string,
+     statement: string
+   }],
+   size: int,
+   timestamp: date object
+}]
+
+
+TrackerDataScale:
+[{
+  id: string,
+  data: {value: int (index), comment: string},
+  timestamp: date object,
+}]
+
+
+TrackerNumeric:
+[{
+   id: string,
+   active: boolean,
+   name: string,
+   paramsObject: {
+     units: string
+   },
+   timestamp: date object
+}]
+
+
+TrackerDataNumeric:
+[{
+  id: string,
+  data: {value: string, comment: string},
+  timestamp: date object
+}]
+
+
+TrackerTickbox:
+[{
+   id: string,
+   active: boolean,
+   name: string,
+   ticked: boolean,
+   frequency: date object (?)
+   timestamp: date object
+}]
+
+
+TrackerDataTickbox:
+[{
+  id: string,
+  data: {value: boolean, comment: string},
+  timestamp: date object
+}]
+
+
+TrackerDiary:
+[{
+  id: string,
+  active: boolaen,
+  name: string,
+  timestamp: date object
+}]
+
+
+TrackerDataDiary:
+[{
+  id: string,
+  data: {value: string, image: string},
+  timestamp: date object
+
+}]

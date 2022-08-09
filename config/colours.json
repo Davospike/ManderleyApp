@@ -1,0 +1,12 @@
+{
+  "primary": "#425CC7",
+  "secondary": "#427b80",
+  "p-light": "#7A89FB",
+  "blue-dark": "#003395",
+  "grey-dark": "#585856",
+  "grey-subtitle": "grey",
+  "grey-light": "#C6C6C5",
+  "tab-grey": "#F6F6F3",
+  "background-grey": "#F6F6F3",
+  "tickRecordBar": "#585856"
+}
